@@ -205,3 +205,10 @@ sequenceDiagram
 - Os serviços são independentes e se comunicam **somente via ActiveMQ**.
 - O uso de `@JmsListener`, `JmsTemplate` e `MappingJackson2MessageConverter` garante o envio/recebimento de mensagens JSON.
 - As credenciais, filas e portas podem ser ajustadas conforme necessidade, desde que mantido o comportamento descrito no enunciado.
+
+---
+
+## Membros
+
+- **Victor Hugo Carvalho** (RM: 558550)
+- **Juliana de Andrade Sousa** (RM: 558834)
