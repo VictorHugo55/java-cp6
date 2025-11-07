@@ -1,0 +1,12 @@
+services:
+  activemq:
+    image: rmohr/activemq:5.15.9
+    container_name: activemq
+    ports:
+      - "62626:61616"   # Broker JMS exposto na 62626
+      - "8161:8161"     # Console web
+    environment:
+      - ACTIVEMQ_USER=admin
+      - ACTIVEMQ_PASSWORD=admin
+      - ACTIVEMQ_MIN_MEMORY=512
+      - ACTIVEMQ_MAX_MEMORY=1024
